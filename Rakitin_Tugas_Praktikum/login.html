@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Rakitin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="auth-container">
+    <div class="auth-logo">Rakitin<span>.</span></div>
+    <p class="auth-subtitle">Sewa alat, tinggal pakai.</p>
+
+    <div class="auth-box">
+        <h1>Selamat Datang</h1>
+        <p>Masuk untuk mengelola penyewaanmu.</p>
+
+        <form id="loginForm">
+            <label>Username
+                <input id="loginUsername" type="text" placeholder="Masukkan username" required>
+            </label>
+            <label>Password
+                <input id="loginPassword" type="password" placeholder="Masukkan password" required>
+            </label>
+            <p id="formError" class="form-error" role="alert"></p>
+            <button type="submit">Login</button>
+        </form>
+
+        <p class="switch">Belum punya akun? <a href="register.html">Daftar</a></p>
+    </div>
+
+    <footer><b>© Rakitin 2026</b></footer>
+</div>
+<script src="auth.js"></script>
+</body>
+</html>
